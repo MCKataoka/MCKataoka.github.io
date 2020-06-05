@@ -5,6 +5,7 @@
 		"styles.scss",
 		"_sass/styles.scss",
 		"_sass/0-base/0-base_dir.scss",
+		"_sass/0-base/index.scss",
 		"_sass/1-modules/1-modules_dir.scss",
 		"_sass/2-layouts/2-layouts_dir.scss",
 		"_sass/2-layouts/index.scss"
@@ -12,11 +13,12 @@
 	"sourcesContent": [
 		"@import 'styles';\n",
 		"@import '0-base/0-base_dir';\n@import '1-modules/1-modules_dir';\n@import '2-layouts/2-layouts_dir';\n",
-		"",
+		"@import 'index';\n",
+		"* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n",
 		"",
 		"@import 'index';\n",
-		".youtube_tut {\n  width: 500px;\n  height: 500px;\n  background: pink;\n}\n"
+		".mk-masthead {\n  width: 100%;\n  height: 100vh;\n  background: green;\n  text-align: center;\n}\n"
 	],
 	"names": [],
-	"mappings": "AKAA,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,IAAI,CACjB"
+	"mappings": "AGAA,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACvB,AGJD,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,KAAK,CACjB,UAAU,CAAE,MAAM,CACnB"
 }
