@@ -14,11 +14,11 @@
 		"@import 'styles';\n",
 		"@import '0-base/0-base_dir';\n@import '1-modules/1-modules_dir';\n@import '2-layouts/2-layouts_dir';\n",
 		"@import 'index';\n",
-		"* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n",
+		"@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');\n\nbody {\n  font-family: 'Raleway', sans-serif;\n  height: 100vh;\n  /* background: #333333 url('showcase.jpg') no-repeat center center / cover; */\n  background: #333333;\n  color: #cccccc;\n}\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nh1,\nh2 {\n  font-weight: 200;\n  margin: 0.4rem;\n}\n\nh1 {\n  font-size: 3.5rem;\n}\n\nh2 {\n  font-size: 2rem;\n  color: #aaaaaa;\n}\n@media (min-width: 1200px) {\n  h1 {\n    font-size: 5rem;\n  }\n}\n\n@media (max-width: 800px) {\n  .mk-masthead {\n    padding: 0 1rem;\n  }\n  h1 {\n    font-size: 3rem;\n  }\n}\n\n@media (max-width: 500px) {\n  h1 {\n    font-size: 2.5rem;\n  }\n\n  h2 {\n    font-size: 1.5rem;\n  }\n}\n",
 		"",
 		"@import 'index';\n",
-		".mk-masthead {\n  width: 100%;\n  height: 100vh;\n  background: green;\n  text-align: center;\n}\n"
+		".mk-masthead {\n  display: flex;\n  flex-direction: column;\n  justify-content: center;\n  height: 100%;\n  padding: 0 3rem;\n}\n\n/* Cursor */\n\n.txt-type > .txt {\n  border-right: 0.2rem solid #777777;\n}\n"
 	],
 	"names": [],
-	"mappings": "AGAA,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACvB,AGJD,AAAA,YAAY,AAAC,CACX,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,KAAK,CACb,UAAU,CAAE,KAAK,CACjB,UAAU,CAAE,MAAM,CACnB"
+	"mappings": "AGAA,OAAO,CAAC,kEAAI,CAEZ,AAAA,IAAI,AAAC,CACH,WAAW,CAAE,qBAAqB,CAClC,MAAM,CAAE,KAAK,CAEb,UAAU,CAAE,OAAO,CACnB,KAAK,CAAE,OAAO,CACf,AAED,AAAA,CAAC,AAAC,CACA,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACV,UAAU,CAAE,UAAU,CACvB,AAED,AAAA,EAAE,CACF,EAAE,AAAC,CACD,WAAW,CAAE,GAAG,CAChB,MAAM,CAAE,MAAM,CACf,AAED,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,MAAM,CAClB,AAED,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,IAAI,CACf,KAAK,CAAE,OAAO,CACf,AACD,MAAM,oBACJ,CAAA,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,IAAI,CAChB,CAAA,AAGH,MAAM,mBACJ,CAAA,AAAA,YAAY,AAAC,CACX,OAAO,CAAE,MAAM,CAChB,AACD,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,IAAI,CAChB,CAHA,AAMH,MAAM,mBACJ,CAAA,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,MAAM,CAClB,AAED,AAAA,EAAE,AAAC,CACD,SAAS,CAAE,MAAM,CAClB,CAJA,AGhDH,AAAA,YAAY,AAAC,CACX,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,MAAM,CACvB,MAAM,CAAE,IAAI,CACZ,OAAO,CAAE,MAAM,CAChB,AAID,AAAA,SAAS,CAAG,IAAI,AAAC,CACf,YAAY,CAAE,oBAAoB,CACnC"
 }
